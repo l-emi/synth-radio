@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background: #642B73;  /* fallback for old browsers */
+    background: url(/sources/images/retro.png) center center / cover no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Synth";
+    src: url(/sources/Lazer84.ttf) format("truetype");
+}
+
+p.customfont { 
+    font-family: "Synth", sans-serif;
+    font-size: 3em;
+    color: #FEEDF5;
+    opacity: 0.8;
+    text-shadow: 0px 0px 30px #CC56A8;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+svg {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#controls {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    button {
+        width: 2em;
+        height: 2em;
+        background: none;
+        border: none;
+        color: #FEEDF5;
+        opacity: 0.8;
+        font-size: 2em;
+        padding: 0.2em;
+        margin: 0.2em;
+        cursor: pointer;
+//        -webkit-box-shadow: 0px 0px 10px 0px #CC56A8;
+//        -moz-box-shadow: 0px 0px 10px 0px #CC56A8;
+        text-shadow: 0px 0px 30px #CC56A8;
+    }
+}
+
+rect {
+    height: 800;
+}
